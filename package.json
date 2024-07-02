@@ -1,0 +1,21 @@
+{
+  "name": "aws-sns",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon -q index.js",
+    "node": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sns": "^3.606.0",
+    "dotenv": "^16.4.5"
+  }
+}
